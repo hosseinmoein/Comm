@@ -26,6 +26,9 @@ extern  int h_errno;
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 bool SocketBase::_connect_hook ()  {
 
     if (is_connected ())
@@ -510,6 +513,8 @@ bool SocketBase::get_hostname_by_ip (const char *dotnotation_ip,
 
     return (true);
 }
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

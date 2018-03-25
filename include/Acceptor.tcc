@@ -14,6 +14,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 template<class com_BASE>
 bool Acceptor<com_BASE>::listen (typename BaseClass::size_type qsize)  {
 
@@ -65,6 +68,8 @@ com_BASE *Acceptor<com_BASE>::accept ()  {
 
     return (ret_ptr);
 }
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

@@ -12,6 +12,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 class   Pipe : public Communication  {
 
     // Note: this class has basic mutual exclusion, but it's the user's
@@ -181,6 +184,8 @@ class   Pipe : public Communication  {
         Pipe (const Pipe &);
         Pipe &operator = (const Pipe &);
 };
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

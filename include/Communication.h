@@ -10,6 +10,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 class   Communication  {
 
     public:
@@ -103,6 +106,8 @@ class   Communication  {
         bool        connected_;
         bool        blocking_;
 };
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

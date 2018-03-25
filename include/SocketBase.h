@@ -18,6 +18,9 @@ struct  ip_mreqn;
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 class   SocketBase : public Communication  {
 
     public:
@@ -143,6 +146,8 @@ class   SocketBase : public Communication  {
                                         DMScu_VirtualString &server_name,
                                         IP_ADDRESS_TYPE ip_at = _ipv4_);
 };
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

@@ -9,6 +9,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 class   RegularSocket : public SocketBase  {
 
     public:
@@ -37,6 +40,8 @@ class   RegularSocket : public SocketBase  {
         virtual int send (const void *data, size_type the_size);
         virtual int receive (void *data, size_type the_size);
 };
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

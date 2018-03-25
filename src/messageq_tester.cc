@@ -13,6 +13,8 @@
 
 #include <MessageQueue.h>
 
+using namespace hmcom;
+
 // ----------------------------------------------------------------------------
 
 extern "C" void *pusher (void *);

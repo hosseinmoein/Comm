@@ -16,6 +16,8 @@
 #include <Pipe.h>
 #include <Selector.h>
 
+using namespace hmcom;
+
 // ----------------------------------------------------------------------------
 
 class   Server  {

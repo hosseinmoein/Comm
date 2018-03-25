@@ -16,6 +16,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 // This class encapsulates POSIX message queues. There are limitations on
 // com_TYPE. com_TYPE elements are memcpy()'ed in and out of POSIX
 // message queues. Therefore a com_TYPE cannot have any virtual method or any
@@ -92,6 +95,8 @@ class   MessageQueue : public Communication  {
         MessageQueue (const MessageQueue &);
         MessageQueue &operator = (const MessageQueue &);
 };
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

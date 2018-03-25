@@ -14,6 +14,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 template <class com_TYPE>
 bool MessageQueue<com_TYPE>::_connect_hook ()  {
 
@@ -227,6 +230,8 @@ void MessageQueue<com_TYPE>::remove ()  {
 
     return;
 }
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

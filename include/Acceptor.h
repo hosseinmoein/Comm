@@ -9,6 +9,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 template<class com_BASE>
 class   Acceptor : public com_BASE  {
 
@@ -38,6 +41,8 @@ class   FixedSizeSocket;
 
 typedef Acceptor<RegularSocket>   RegularAcceptor;
 typedef Acceptor<FixedSizeSocket> FixedSizeAcceptor;
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

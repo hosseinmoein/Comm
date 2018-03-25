@@ -9,6 +9,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 class   FixedSizeSocket : public SocketBase  {
 
     public:
@@ -93,6 +96,8 @@ class   FixedSizeSocket : public SocketBase  {
         const   bool        use_fast_;
         const   size_type   header_size_;
 };
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

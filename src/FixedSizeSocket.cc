@@ -19,6 +19,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 const   FixedSizeSocket::size_type  FixedSizeSocket::
     MAX_FAST_HEADER_SIZE =
         DMScu_FASTProtocolUtilities::bytes_required (sizeof(size_type), false);
@@ -286,6 +289,8 @@ FixedSizeSocket::read_fixed (ReadBufferType *data, bool text_data)  {
 
     return (the_size);
 }
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 

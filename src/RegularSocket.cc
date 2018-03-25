@@ -15,6 +15,9 @@
 
 // ----------------------------------------------------------------------------
 
+namespace hmcom
+{
+
 int RegularSocket::send (const void *data, size_type the_size)  {
 
     int sent_size = 0;
@@ -62,6 +65,8 @@ int RegularSocket::receive (void *data, size_type the_size)  {
 
     return (received_size);
 }
+
+} // namespace hmcom
 
 // ----------------------------------------------------------------------------
 
